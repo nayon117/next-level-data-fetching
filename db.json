@@ -1,0 +1,41 @@
+{
+   "posts":[
+        {
+          "id": 1,
+          "title": "Exciting Adventure",
+          "description": "Embark on a thrilling journey filled with twists and turns. Uncover hidden secrets, face formidable challenges, and emerge victorious. This adventure promises excitement at every corner.",
+          "likes_count": 150
+        },
+        {
+          "id": 2,
+          "title": "Gourmet Delights",
+          "description": "Indulge your taste buds in a culinary adventure. Explore exquisite flavors, savor mouth-watering dishes, and discover the art of gastronomy. Your culinary journey begins here!",
+          "likes_count": 220
+        },
+        {
+          "id": 3,
+          "title": "Mindful Meditation",
+          "description": "Immerse yourself in the serenity of mindful meditation. Find peace, clarity, and a deeper connection with yourself. Join us on a path to inner harmony and well-being.",
+          "likes_count": 180
+        },
+        {
+          "id": 4,
+          "title": "Tech Innovations",
+          "description": "Stay ahead of the curve with the latest in tech innovations. Explore cutting-edge technologies, revolutionary gadgets, and future trends that will shape the world. Embrace the future!",
+          "likes_count": 300
+        },
+        {
+          "id": 5,
+          "title": "Artistic Expression",
+          "description": "Dive into the world of artistic expression. From mesmerizing paintings to captivating sculptures, experience the beauty that transcends boundaries. Let creativity inspire and uplift your soul.",
+          "likes_count": 250
+        },
+        {
+          "id": 6,
+          "title": "Fitness Fusion",
+          "description": "Revitalize your body and mind with a fusion of fitness and wellness. Engage in invigorating workouts, practice mindfulness, and achieve holistic well-being. Join the fitness revolution!",
+          "likes_count": 180
+        }
+      ]
+      
+}

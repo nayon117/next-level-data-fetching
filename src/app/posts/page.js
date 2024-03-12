@@ -1,11 +1,9 @@
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5000/posts",{
-     next:{
-        revalidate:5
-     }
+      cache:"no-store"
   });
   const posts = await res.json();
-  console.log(posts);
+//   console.log(posts);
   return (
     <div className="container px-4 md:px-8 lg:px-16 ">
       <h1 className="text-3xl text-center p-2">

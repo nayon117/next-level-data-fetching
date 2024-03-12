@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5000/posts",{
       cache:"no-store"
@@ -18,7 +20,9 @@ const PostsPage = async () => {
                 <p>{post.description}</p>
                 <p>Likes: {post.likes_count}</p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">see More</button>
+                 <Link href={`posts/${post.id}`}>
+                 <button className="btn btn-primary">see More</button>
+                 </Link>
                 </div>
               </div>
             </div>
